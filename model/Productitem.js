@@ -1,0 +1,3 @@
+class Productitem{
+    constructor(){}
+}

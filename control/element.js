@@ -1,0 +1,1 @@
+export const tblProductList=document.getElementById('tblDanhSachSP')
