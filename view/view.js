@@ -1,5 +1,5 @@
 import{ tblProductList} from'../control/element.js';
-import getApiProducts from '../model/getApiProduct.js';
+import getApiProducts from '../model/getApiProducts.js';
 
 const productData=await getApiProducts();
 console.log(productData);
@@ -10,9 +10,15 @@ productData.forEach((element) => {
       <td>${element.id}</td>
       <td>${element.name}/td>
       <td>${element.price}</td>
-      <td>${element.image}</td>
-      <td>${element.description}</td>
-      <td>${element.id}</td>
+      <td>
+      <img src="${element.img}" alt="">
+      </td>
+      <td>${element.desc}</td>
+      <td> 
+      <button id="arrayMethod">sửa</button>
+      <button id="arrayDelete">Xóa</button>
+      </td>
+
     </tr>
     
     `;

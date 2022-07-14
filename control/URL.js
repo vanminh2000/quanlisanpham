@@ -1,1 +1,1 @@
-export const URL="https://mockapi.io/projects/629757b514e756fe3b2dc8fe"
+export const URL="https://629757b514e756fe3b2dc8fd.mockapi.io/api/product"
